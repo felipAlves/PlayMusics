@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+body {
+    background: rgb(17, 17, 17);
+    max-width: 100%;
+}
+
+#login {
+    width: 30%;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.form_item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.input_form {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(68, 197, 209);
+    color: white;
+    transition: .5s;
+}
+
+.input_form:hover {
+    padding: 15px;
+}
+
+#header_login {
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+}
+
+#btn_login {
+    padding: 20px;
+    background: rgb(68, 197, 209);
+    border: none;
+    width: 100px;
+    border-radius: 8px;
+}
+
+#btn_login:hover {
+    background: rgb(45, 237, 255);
+}
+
+@media (max-width: 700px) {
+    #login {
+        width: 80%;
+        margin: 100px auto;
+    }
+}
