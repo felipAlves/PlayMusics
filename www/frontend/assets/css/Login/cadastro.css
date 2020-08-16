@@ -1,0 +1,45 @@
+.form_group {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.header-cadastro, h2 {
+    color: white; 
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form_item {
+    width: 50%;
+    margin: auto;
+}
+
+#cadastro {
+    width: 50%;
+    margin: 150px auto;
+    text-align: center;
+}
+
+#btn_cadastro {
+    padding: 20px;
+    background: rgb(68, 197, 209);
+    border: none;
+    width: 150px;
+    border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+    #cadastro {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .form_item {
+        width: 100%;
+    }
+}
